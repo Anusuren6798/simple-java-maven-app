@@ -10,6 +10,7 @@
   <name>my-app</name>
 
   <properties>
+    <!-- Compiler and source/target Java version -->
     <maven.compiler.release>21</maven.compiler.release>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
@@ -31,7 +32,7 @@
 
   <build>
     <plugins>
-      <!-- Compiler Plugin -->
+      <!-- Compiler Plugin for Java 21 -->
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
